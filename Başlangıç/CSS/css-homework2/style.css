@@ -1,0 +1,32 @@
+.searchbar {
+    background-color: #EEEEEE;
+    width: 1710px;
+    height: 60px;
+    margin-bottom: 2.25px;
+    padding: 0px;
+}
+.box {
+    float: left;
+    margin-left: 2px;
+}
+.box1 {
+    background-color: #7EE5DA;
+    width: 631px;
+    padding-top: 11px;
+    margin-left: 97.4px;
+    height: 65px;
+}
+.box2 {
+    background-color: #70CCC2;
+    width: 333px;
+    padding-top: 6px;
+    height: 70px;
+    font-size: 13px;
+}
+.box3 {
+    background-color: #62B3AA;
+    width: 742px;
+    padding: 0px;
+    height: 76px;
+    font-size: 13px;
+}
