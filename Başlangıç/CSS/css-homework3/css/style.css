@@ -1,0 +1,177 @@
+.header {
+  display: flex;
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  margin-left: 1650px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+
+.headerli a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+.headerli a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  text-align: center;
+  margin: 100px;
+}
+
+.search-area {
+  background: transparent;
+  display: flex;
+  border: 1px solid rgba(223, 225, 229, 0.4);
+  box-shadow: none;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: -77px;
+  width: 582px;
+  border-radius: 40px;
+}
+
+.search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  background: #303134;
+  border: 1px solid rgba(223,225,229,0);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.input-area {
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+  width: 400px;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+  background: transparent;
+  border: none;
+  color: white;
+  width: 480px;
+}
+
+.feelinglucky, .googlesearch {
+  margin: 30px 5px;
+  padding: 0 16px;
+  line-height: 35px;
+  min-width: 125px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  background: #303134;
+  color: white;
+  border: 1px solid rgba(255,255,255,0);
+  border-radius: 5px;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+}
+
+.feelinglucky:hover, .googlesearch:hover {
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer {
+  background: #171717;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top: 1px solid #3c4043;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  height: 46px;
+}
+
+.footerli {
+  float: left;
+  list-style-type: none;
+}
+
+.footerli a {
+  display: block;
+  color: rgba(255,255,255,0.5);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background: #202124;
+}
