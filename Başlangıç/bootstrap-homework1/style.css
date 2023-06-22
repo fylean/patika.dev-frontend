@@ -1,0 +1,20 @@
+body {
+    background: #E9ECEF
+}
+li {
+    list-style-position: inside 
+}
+header {
+    background: #303e47;
+    height: 50px
+}
+h4 {
+    color: #cc9200
+}
+h5 {
+    color: purple
+}
+
+.card {
+    height: 33%;
+}
